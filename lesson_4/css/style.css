@@ -26,6 +26,9 @@ h3.title{
 h4.title{
 	color: lawngreen;
 }
+h5.little-title{
+	color: rgb(255, 0, 200);
+}
 .subtitle{
 	color: brown;
 }
@@ -34,4 +37,8 @@ mark{
 }
 span{
 	color: deeppink;
+}
+#notes,
+#link{
+	color: bisque;
 }
