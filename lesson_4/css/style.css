@@ -1,0 +1,37 @@
+@import url("reset.css");
+
+div.block{
+	color: blueviolet;
+}
+div.text{
+	color: darkmagenta;
+}
+div.footer{
+	color: gray;
+}
+a.link,
+a.pers-link,
+a.otherlink{
+	color: blue;
+}
+h1.bigtitle{
+	color: orange;
+}
+h2.title{
+	color: orangered;
+}
+h3.title{
+	color: chartreuse;
+}
+h4.title{
+	color: lawngreen;
+}
+.subtitle{
+	color: brown;
+}
+mark{
+	color: coral;
+}
+span{
+	color: deeppink;
+}
