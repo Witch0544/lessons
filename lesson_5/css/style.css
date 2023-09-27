@@ -1,0 +1,105 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+
+
+
+body{
+	font-family: "Inter", sans-serif;
+}
+
+.title,
+.sub-title,
+.ohter-title{
+	font-family: "Poppins", sans-serif;
+}
+.title{
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1.27;
+	text-transform:capitalize;
+	color: #37393F;
+}
+.sub-title{
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.4;
+	color: #6B77E5;
+	}
+.ohter-title{
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.27;
+	text-transform:capitalize;
+	color: #37393F;
+	}
+.text{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.46;
+	color: #7D7D7D;
+}
+.list{
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.46;
+	color: #7D7D7D;
+	text-indent: 10px;
+}
+
+/*========================================================*/
+
+
+.practise{
+	font-family: "Causten", serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.5;
+	text-transform:capitalize;
+	color: darkslateblue;
+	text-align:center;
+}
+.practice-text{
+	font-size: 18px;
+	line-height: 1.2;
+	color: midnightblue;
+	text-indent: 18px;
+}
+mark{
+	font-weight: 700;
+	color: black;
+	text-shadow: 5px 5px 2px red;
+	letter-spacing: 2px;
+}
+.practice-othertext{
+	font-family: "Poppins", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.4;
+	text-align: right;
+	color: darkred;
+}
+span{
+	font-weight: 700;
+	color: green;
+	text-shadow: 7px 7px 7px yellow;
+	letter-spacing: 3px;
+}
+.practise-next{
+	font-size: 30px;
+	font-weight: 600;
+	text-decoration:line-through;
+	color: navy;
+	word-spacing: 10px;
+}
+.practice-list{
+	line-height: 1.6;
+	text-indent: 30px;
+	color: darkviolet;
+}
+.link{
+	text-align: center;
+	text-decoration: underline;
+	color: mediumblue;
+	text-transform:uppercase;
+}
