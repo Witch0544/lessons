@@ -1,0 +1,126 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	color: #7d7d7d;
+}
+
+.title,
+.sub-title,
+.benefits-title,
+.benefits-sub-title {
+	font-family: "Poppins", sans-serif;
+}
+.title,
+.benefits-title {
+	color: #37393f;
+	font-weight: 600;
+}
+.sub-title,
+.benefits-sub-title {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+}
+
+.block {
+	padding: 30px 15px;
+	max-width: 722px;
+	margin: 0 auto;
+}
+.image,
+.image-benefits {
+	max-width: 100%;
+}
+
+.image {
+	margin-bottom: 37px;
+}
+.title {
+	font-size: 30px;
+	text-transform: capitalize;
+	margin-bottom: 12.5px;
+}
+.text {
+	line-height: 1.47;
+	margin-bottom: 42px;
+}
+.text p {
+	margin-bottom: 15px;
+}
+.sub-title {
+	color: #6b77e5;
+	margin-bottom: 12px;
+}
+.benefits {
+	font-size: 0px;
+	margin-bottom: 48px;
+}
+.image-benefits {
+	width: 331px;
+	margin-right: 29px;
+}
+.content-benefits {
+	display: inline-block;
+	width: 332px;
+	font-size: 18px;
+}
+.benefits-title {
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+.benefits-sub-title {
+	color: #40ddb6;
+	margin-bottom: 23.5px;
+}
+.list-benefits li {
+	line-height: 35px;
+	text-indent: 30px;
+}
+/*=====================Second maket =========*/
+
+.jewels {
+	margin:  0 auto ;
+	max-width: 1169px;
+	font-size: 0px;
+}
+.jewels-block {
+	display: inline-block;
+	margin-right: 38px;
+	font-size: 20px;
+	line-height: 1.8;
+	color: #474747;
+}
+.jewels-subtitle {
+	color: #D06B00;
+	font-size: 28px;
+	text-transform: uppercase;
+	margin-bottom: 13px;
+}
+.jewels-title {
+	font-family: "DM Serif Text", serif;
+	font-size: 59px;
+	color: #0E333D;
+	text-transform: capitalize;
+	line-height: 1.47;
+	max-width: 525px;
+	margin-bottom: 25px;
+}
+.jewels-text {
+	max-width: 563px;
+}
+.jewels-image{
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 15px;
+	
+}
+.jewels-image1 {
+	max-width: 273px;
+	margin-right: 22px;
+}
+.jewels-image2 {
+	max-width: 273px;
+}
