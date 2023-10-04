@@ -14,8 +14,8 @@ body {
 	margin: 0 auto;
 }
 .titles {
-	width: 296px;
-	margin: 38px 461px 70px 461px;
+	margin-bottom: 70px;
+	text-align: center;
 	text-transform: capitalize;
 }
 .title-text,
