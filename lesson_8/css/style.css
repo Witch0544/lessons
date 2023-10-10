@@ -1,0 +1,432 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+}
+.homework {
+	font-size: 20px;
+	color: midnightblue;
+	background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 0.4906337535014006) 100%) 0 0 / cover
+		fixed no-repeat;
+	margin-bottom: 50px;
+}
+.main {
+	margin: 0 auto;
+	font-size: 0px;
+	max-width: 1200px;
+}
+.block {
+	display: inline-block;
+	vertical-align: top;*/
+	padding: 15px;
+	border: 5px solid green;
+	background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(70, 252, 103, 0.4822303921568627) 100%);
+	margin: 30px 220px;	
+}
+.first-images {
+	display: inline-block;
+	min-width: 300px;
+	margin-right: 15px;
+	vertical-align: top;
+}
+.block p {
+	display: inline-block;
+	font-family: "Cormorant Infant", serif;
+	font-weight: 700;
+	font-size: 64px;
+	color: blue;
+	min-width: 100px;
+	margin-right: 15px;
+	text-align: center;
+	vertical-align: middle;
+	border: 5px solid saddlebrown;
+	border-radius: 20px;
+	background-color: chocolate;
+	}
+.second-images {
+	display: inline-block;
+	max-width: 300px;
+	vertical-align: top;
+}
+.text-block {
+	margin: 0 auto;
+	font-size: 0px;
+	max-width: 1200px;
+}
+.main-title,
+.differenses,
+.how__works {
+	font-family: "Cormorant Infant", serif;
+	font-weight: 700;
+	color: saddlebrown;
+	text-align: center;
+	text-transform: capitalize;
+}
+.main-title {
+	font-size: 64px;
+	line-height: 1.3;
+	margin-bottom: 30px;
+}
+.differenses,
+.how__works {
+	font-size: 50px;
+	line-height: 1.27;
+	margin-bottom: 25px;
+}
+.contracts {
+	font-size: 25px;
+	line-height: 1.27;
+	margin-bottom: 20px;
+	text-align: left;
+}
+.paragraph,
+.difference,
+.fiverr__platform,
+.upwork__platform,
+.contracts-list,
+.contracts-text {
+	font-size: 20px;
+	line-height: 1.2;
+	margin-bottom: 20px;
+}
+.paragraph p,
+.difference p,
+.fiverr__platform p,
+.upwork__platform p,
+.contracts-text p {
+	text-indent: 20px;
+	margin-bottom: 15px;
+}
+.contracts-list ul {
+	padding-left: 30px;
+}
+.fiverr {
+	background: url("../img/fiverr1.jpg") no-repeat;
+	padding-left: 30px;
+	color: black;
+	font-weight: 700;
+}
+.upwork {
+	background: url("../img/upwork1.jpg") no-repeat;
+	padding-left: 30px;
+	color: rgba(50, 191, 15, 0.986);
+	font-weight: 700;
+}
+.difference {
+	display: inline-block;
+	margin: 0 auto;
+	font-size: 0px;
+	max-width: 1200px;
+	vertical-align: top;
+}
+.fiverr-dif {
+	display: inline-block;
+	font-size: 20px;
+	max-width: 585px;
+	margin-right: 15px;
+	padding: 10px;
+	vertical-align: middle;
+	border: 3px dashed black;
+	background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%) center;
+}
+.upwork-dif {
+	display: inline-block;
+	font-size: 20px;
+	max-width: 600px;
+	vertical-align: middle;
+	padding: 21px 10px;
+	border: 3px dashed brown;
+	background: radial-gradient(circle, rgba(238, 219, 174, 0.9192051820728291) 0%, rgba(233, 233, 148, 1) 100%) center;
+}
+.difference p {
+	font-size: 20px;
+}
+.list li {
+	background: url("../img/pen.jpg") no-repeat;
+	padding-left: 17px;
+	margin-bottom: 18px;
+}
+
+/*===================================1-st block===========================*/
+
+.care-block {
+	font-size: 18px;
+	color: #7d7d7d;
+	line-height: 1.46;
+	max-width: 673px;
+	margin: 0 auto;
+}
+.care-subtitle {
+	font-weight: 500;
+	background: url("../img/11.jpg") no-repeat 0 5px;
+	padding-left: 18px;
+	margin-bottom: 16px;
+}
+.care-title {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.21;
+	color: #37393f;
+	margin-bottom: 20px;
+}
+.care-text p {
+	margin-bottom: 15px;
+}
+.care-text {
+	margin-bottom: 20px;
+}
+.care-list {
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	color: #37393f;
+	margin-bottom: 43px;
+}
+.care-list li {
+	padding-left: 35px;
+	background: url("../img/Vector.jpg") no-repeat;
+	margin-bottom: 23px;
+}
+.care-experience {
+	display: inline-block;
+	margin: 0 auto;
+	font-size: 0px;
+	max-width: 613px;
+	margin-bottom: 37px;
+}
+.experience-box {
+	display: inline-block;
+	vertical-align: top;
+	padding: 31px 32px 32px 32px;
+	background: url("../img/Icon1.jpg") no-repeat 32px 31px;
+	max-width: 295px;
+	margin-right: 21px;
+	border: 1px #e3e3e3 solid;
+}
+.experience-text {
+	font-size: 16px;
+	line-height: 1.35;
+	padding-left: 58px;
+}
+.experience-title,
+.winner-title {
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #37393f;
+	margin-bottom: 3px;
+}
+.winner-box {
+	display: inline-block;
+	vertical-align: top;
+	padding: 31px 37px 32px 35px;
+	background: url("../img/Icon2.jpg") no-repeat 35px 31px;
+	max-width: 297px;
+	border: 1px #e3e3e3 solid;
+}
+.winner-text {
+	font-size: 16px;
+	line-height: 1.35;
+	padding-left: 59px;
+}
+.care-about {
+	max-width: 184px;
+	padding: 21px 27px 22px 27px;
+	background-color: #6b77e5;
+	margin-bottom: 145px;
+}
+.links {
+	font-weight: 600;
+	color: white;
+	text-transform: capitalize;
+}
+
+/*=======================2-nd block=======================*/
+
+.project {
+	font-size: 18px;
+	color: #7d7d7d;
+	line-height: 1.46;
+	margin: 0 auto;
+	max-width: 1220px;
+}
+.project-text {
+	max-width: 852px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 47px;
+}
+.project-subtitle {
+	font-weight: 500;
+	color: #37393f;
+	text-transform: capitalize;
+	margin-bottom: 14px;
+	background: url("../img/11.jpg") no-repeat 38%;
+}
+.project-title {
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: #37393f;
+	line-height: 1.21;
+	margin-bottom: 14px;
+}
+.image-line {
+	margin-bottom: 58px;
+	font-size: 0;
+}
+.project-image {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.27;
+	padding-top: 521px;
+	margin-bottom: 10px;
+}
+.first-image p,
+.second-image p,
+.therd-image p,
+.forth-image p,
+.fifth-image p,
+.six-image p {
+	font-size: 14px;
+	line-height: 1.46;
+	color: #7d7d7d;
+	background: url("../img/images/011.jpg") no-repeat;
+	padding-left: 24px;
+}
+.first-image {
+	display: inline-block;
+	min-width: 384px;
+	margin-right: 34px;
+	background: url("../img/images/001.jpg") no-repeat;
+	vertical-align: top;
+}
+.second-image {
+	display: inline-block;
+	min-width: 384px;
+	margin-right: 34px;
+	background: url("../img/images/002.jpg") no-repeat;
+	vertical-align: top;
+}
+.therd-image {
+	display: inline-block;
+	min-width: 384px;
+	background: url("../img/images/003.jpg") no-repeat;
+	vertical-align: top;
+}
+.image-nextline {
+	font-size: 0;
+	margin-bottom: 150px;
+}
+.forth-image {
+	display: inline-block;
+	min-width: 384px;
+	margin-right: 34px;
+	vertical-align: top;
+	background: url("../img/images/004.jpg") no-repeat;
+}
+.fifth-image {
+	display: inline-block;
+	min-width: 384px;
+	margin-right: 34px;
+	vertical-align: top;
+	background: url("../img/images/005.jpg") no-repeat;
+}
+.six-image {
+	display: inline-block;
+	min-width: 384px;
+	vertical-align: top;
+	background: url("../img/images/006.jpg") no-repeat;
+}
+
+/*=========================3-rd block====================*/
+
+.india-block {
+	font-size: 0px;
+	margin: 0 auto;
+	max-width: 1219px;
+	
+}
+.india-text{
+	background: url("../img/21.jpg") no-repeat;
+	padding-left: 21px;
+}
+.clothing-subtitle {
+	margin-bottom: 25px;
+	color: #807D7E;
+	font-size: 20px;
+	line-height: 1.68;
+	letter-spacing: 0.4px;
+}
+.clothing-text {
+	display: inline-block;
+	font-size: 20px;
+	color: #807D7E;
+	font-family: "Causten", sans-serif;
+	line-height: 1.68;
+	letter-spacing: 0.4px;
+	margin-bottom: 25px;
+}
+.clothing-title,
+.clothing-subtitle {
+	font-family: "CoreSansC", sans-serif;
+	font-weight: 600;
+}
+.clothing-title {
+	font-size: 28px;
+	color: #3C4242;
+	letter-spacing: 0.56px;
+	margin-bottom: 30px;
+}
+.euphoria {
+	font-weight: 700;
+}
+
+/*=============================4-th block======================*/
+
+.fashion {
+	max-width: 1240px;
+	margin: 50px auto;
+	font-size: 0px;
+}
+.text-fashion {
+	display: inline-block;
+	font-family: "Causten", sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	color: white;
+	letter-spacing: 1px;
+	max-width: 614px;
+	background: url("../img/bg001.jpg") no-repeat;
+	padding: 183px 74px 175px 70px;
+}
+.fashion-title {
+	font-family: "CoreSansC", sans-serif;
+	font-weight: 800;
+	font-size: 34px;
+	line-height: 1.47;
+	letter-spacing: 0.208px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	/*max-width: 466px;*/
+}
+.fashion-text {
+	margin-bottom: 50px;
+}
+.fashion-shop {
+	font-size: 18px;
+	font-weight: 600;
+	background-color: white;
+	border-radius: 8px;
+	padding: 12px 40px;
+	color: #3C4242;
+	max-width: 168px;
+}
+.photo-fashion {
+	display: inline-block;
+	max-width: 626px;
+	vertical-align: top;
+}
