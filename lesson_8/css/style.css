@@ -19,7 +19,7 @@ body {
 }
 .block {
 	display: inline-block;
-	vertical-align: top;*/
+	vertical-align: top;
 	padding: 15px;
 	border: 5px solid green;
 	background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(70, 252, 103, 0.4822303921568627) 100%);
@@ -221,7 +221,7 @@ body {
 .winner-box {
 	display: inline-block;
 	vertical-align: top;
-	padding: 31px 37px 32px 35px;
+	padding: 31px 33px 32px 33px;
 	background: url("../img/Icon2.jpg") no-repeat 35px 31px;
 	max-width: 297px;
 	border: 1px #e3e3e3 solid;
@@ -233,14 +233,15 @@ body {
 }
 .care-about {
 	max-width: 184px;
-	padding: 21px 27px 22px 27px;
-	background-color: #6b77e5;
 	margin-bottom: 145px;
 }
 .links {
+	display: inline-block;
 	font-weight: 600;
 	color: white;
 	text-transform: capitalize;
+	padding: 21px 27px 22px 27px;
+	background-color: #6b77e5;
 }
 
 /*=======================2-nd block=======================*/
@@ -299,21 +300,24 @@ body {
 }
 .first-image {
 	display: inline-block;
-	min-width: 384px;
+	max-width: 384px;
+	width: 100%;
 	margin-right: 34px;
 	background: url("../img/images/001.jpg") no-repeat;
 	vertical-align: top;
 }
 .second-image {
 	display: inline-block;
-	min-width: 384px;
+	max-width: 384px;
+	width: 100%;
 	margin-right: 34px;
 	background: url("../img/images/002.jpg") no-repeat;
 	vertical-align: top;
 }
 .therd-image {
 	display: inline-block;
-	min-width: 384px;
+	max-width: 384px;
+	width: 100%;
 	background: url("../img/images/003.jpg") no-repeat;
 	vertical-align: top;
 }
@@ -323,21 +327,24 @@ body {
 }
 .forth-image {
 	display: inline-block;
-	min-width: 384px;
+	max-width: 384px;
+	width: 100%;
 	margin-right: 34px;
 	vertical-align: top;
 	background: url("../img/images/004.jpg") no-repeat;
 }
 .fifth-image {
 	display: inline-block;
-	min-width: 384px;
+	max-width: 384px;
+	width: 100%;
 	margin-right: 34px;
 	vertical-align: top;
 	background: url("../img/images/005.jpg") no-repeat;
 }
 .six-image {
 	display: inline-block;
-	min-width: 384px;
+	max-width: 384px;
+	width: 100%;
 	vertical-align: top;
 	background: url("../img/images/006.jpg") no-repeat;
 }
@@ -400,7 +407,7 @@ body {
 	color: white;
 	letter-spacing: 1px;
 	max-width: 614px;
-	background: url("../img/bg001.jpg") no-repeat;
+	background: url("../img/bg001.jpg") center / cover no-repeat;
 	padding: 183px 74px 175px 70px;
 }
 .fashion-title {
@@ -417,16 +424,20 @@ body {
 	margin-bottom: 50px;
 }
 .fashion-shop {
+	max-width: 168px;
+}
+.fashion-link {
+	display: inline-block;
 	font-size: 18px;
 	font-weight: 600;
 	background-color: white;
 	border-radius: 8px;
 	padding: 12px 40px;
 	color: #3C4242;
-	max-width: 168px;
 }
 .photo-fashion {
 	display: inline-block;
 	max-width: 626px;
+	width: 100%;
 	vertical-align: top;
 }
