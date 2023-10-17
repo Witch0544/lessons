@@ -1,0 +1,572 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+}
+.homework {
+	font-size: 0;
+	margin: 0 auto;
+	max-width: 1240px;
+}
+.list-ul {
+	font-size: 18px;
+	margin: 0 auto;
+	color: aquamarine;
+	text-align: center;
+	max-width: 400px;
+	margin-bottom: 30px;
+}
+.list-ul li:not(:last-child) {
+	margin-bottom: 10px;
+}
+.list-ul li:nth-child(even)::before {
+	content: "";
+	background-color: greenyellow;
+	border-radius: 50%;
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	margin-right: 15px;
+}
+.list-ul li:nth-child(odd)::after {
+	content: "";
+	background-color: blue;
+	border-radius: 50%;
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	margin-left: 15px;
+}
+.list-ul li:hover {
+	color: red;
+}
+.sent {
+	margin: 0 auto;
+	background-color: blueviolet;
+	font-size: 30px;
+	color: wheat;
+	max-width: 418px;
+	border-radius: 10px;
+	border: 3px solid violet;
+	padding: 15px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.image {
+	display: none;
+}
+.sent:hover .bottom {
+	color: chocolate;
+}
+.sent:hover .image {
+	display: block;
+}
+
+.next-list {
+	font-size: 20px;
+	color: darkblue;
+	margin-bottom: 50px;
+	text-align: center;
+	max-width: 600px;
+}
+.next-list li:not(:last-child) {
+	margin-bottom: 10px;
+}
+.next-list > li::before {
+	content: "";
+	background-color: deeppink;
+	border-radius: 25px;
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.link:focus {
+	outline: 2px brown solid;
+}
+.link .link li::before {
+	content: "";
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-color: blueviolet;
+	margin-right: 15px;
+}
+.link:visited {
+	color: gray;
+}
+ol {
+	margin-bottom: 10px;
+	counter-reset: item;
+}
+ol .links::before {
+	counter-increment: item;
+	content: counter(item) ". ";
+	display: inline-block;
+	margin-right: 5px;
+	color: blueviolet;
+}
+ul ol {
+	display: none;
+}
+ul li:hover ol {
+	display: block;
+}
+.first-titles {
+	display: inline-block;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1.35;
+	font-style: oblique;
+	color: chartreuse;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	padding-left: 10px;
+}
+.first-titles::after {
+	display: block;
+	content: "";
+	height: 3px;
+	width: 80%;
+	background-color: chartreuse;
+}
+.first-text {
+	background: gray no-repeat fixed;
+	margin-bottom: 50px;
+}
+.text-title {
+	font-size: 18px;
+	line-height: 1.2;
+	display: inline-block;
+	margin-bottom: 15px;
+	padding: 10px;
+}
+.text-title p:not(:last-of-type) {
+	margin-bottom: 15px;
+}
+.text-title p:nth-child(3n + 1) {
+	background-color: chocolate;
+}
+.text-title p:nth-child(3n - 1) {
+	border: 4px solid yellow;
+}
+.text-title p:nth-child(3n) {
+	color: rgb(82, 3, 23);
+}
+
+.game {
+	font-size: 0;
+	margin: 0 auto;
+	max-width: 1230px;
+	padding: 0 20px;
+}
+.game-title {
+	font-size: 40px;
+	font-weight: 700;
+	color: purple;
+	text-align: center;
+	text-transform: capitalize;
+}
+.first-line {
+	margin: 0 auto;
+	width: 30px;
+	height: 70px;
+	background-color: darkred;
+	visibility: hidden;
+}
+.game-title:hover ~ .first-line,
+.first-line:hover {
+	visibility: visible;
+}
+.second-line {
+	width: 610px;
+	height: 30px;
+	background-color: darkred;
+	visibility: hidden;
+}
+.first-line:hover ~ .second-line,
+.second-line:hover {
+	visibility: visible;
+}
+.third-line {
+	width: 30px;
+	height: 50px;
+	background-color: darkred;
+	visibility: hidden;
+}
+.second-line:hover ~ .third-line,
+.third-line:hover {
+	visibility: visible;
+}
+.fourth-line {
+	width: 700px;
+	height: 20px;
+	background-color: darkred;
+	visibility: hidden;
+}
+.third-line:hover ~ .fourth-line,
+.fourth-line:hover {
+	visibility: visible;
+}
+.fifth-line {
+	width: 20px;
+	height: 60px;
+	background-color: darkred;
+	margin-left: 680px;
+	visibility: hidden;
+}
+.fourth-line:hover ~ .fifth-line,
+.fifth-line:hover {
+	visibility: visible;
+}
+.six-line {
+	margin-left: 680px;
+	width: 500px;
+	height: 30px;
+	background-color: darkred;
+	text-align: right;
+	padding: 5px 10px;
+	font-size: 20px;
+	font-weight: 400;
+	color: yellow;
+	margin-bottom: 50px;
+	visibility: hidden;
+}
+.fifth-line:hover ~ .six-line,
+.six-line:hover {
+	visibility: visible;
+}
+.six-line a:hover {
+	color: magenta;
+}
+
+/*=========================================*/
+
+.benefits {
+	font-size: 0;
+	margin: 0 auto 45px;
+	max-width: 692px;
+}
+.benefits-text {
+	font-size: 18px;
+	color: #7d7d7d;
+	line-height: 1.46;
+	margin-bottom: 39px;
+}
+.benefits-text p:not(:last-child) {
+	margin-bottom: 42px;
+}
+.first-title,
+.second-title,
+.list-title,
+.list-subtitle {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+}
+.first-title {
+	font-size: 30px;
+	line-height: 1.27;
+	color: #37393f;
+	margin-bottom: 4px;
+	text-transform: capitalize;
+}
+.second-title {
+	font-size: 20px;
+	color: #6b77e5;
+	line-height: 1.27;
+	margin-bottom: 12px;
+}
+.benefits-list {
+	font-size: 18px;
+	color: #7d7d7d;
+	margin-bottom: 50px;
+	width: 100%;
+	background: url(" ../img/002.jpg") 0 0 / contain no-repeat;
+	padding-left: 350px;
+}
+.list-title {
+	font-size: 25px;
+	color: #37393f;
+	line-height: 1.27;
+	margin-bottom: 15px;
+}
+.list-subtitle {
+	font-size: 20px;
+	color: #40ddb6;
+	line-height: 1.27;
+	margin-bottom: 23.5px;
+}
+.list-benefit:not(:last-child) {
+	margin-bottom: 30px;
+}
+.list-benefit::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/vector.jpg") 0 0 no-repeat;
+	border-radius: 50%;
+	width: 27px;
+	height: 27px;
+	margin-right: 8px;
+	margin-bottom: -6px;
+}
+
+/*============================*/
+
+.bussines-plan {
+	font-size: 0;
+	margin: 0 auto 212px;
+	max-width: 673px;
+}
+.plan-text {
+	margin-bottom: 48px;
+}
+.plan-text,
+.vision-plan p,
+.mision-plan p {
+	font-size: 18px;
+	color: #7d7d7d;
+	line-height: 1.46;
+}
+.plan-text p:not(:last-child) {
+	margin-bottom: 16px;
+}
+.plan-subtitle {
+	font-weight: 500;
+	color: #37393f;
+	text-transform: capitalize;
+	margin-bottom: 16px;
+}
+.plan-title,
+.vision,
+.mision {
+	font-family: "Poppins", sans-serif;
+	color: #37393f;
+}
+.plan-title {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.21;
+	margin-bottom: 10px;
+}
+.plan-subtitle::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/11.jpg") 0 0 no-repeat;
+	width: 12px;
+	height: 13px;
+	margin-right: 6px;
+}
+.our-block {
+	margin-bottom: 48px;
+}
+.vision-plan {
+	margin-bottom: 31px;
+}
+.vision-plan,
+.mision-plan {
+	border: 1px solid #e3e3e3;
+	padding: 28px 41px 28px 38px;
+}
+.vision-block,
+.mission-block {
+	background: url("../img/vector.jpg") 0 0 no-repeat;
+	padding-left: 46px;
+}
+.vision,
+.mision {
+	font-weight: 600;
+	font-size: 20px;
+	margin-bottom: 12px;
+}
+.push-button {
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: capitalize;
+	color: white;
+	background-color: #6b77e5;
+	padding: 21px 35px;
+}
+.push-button:hover {
+	background-color: #07105e;
+	text-decoration: underline;
+}
+
+/*=============================================*/
+
+.work {
+	font-size: 0;
+	margin: 0 auto 50px;
+	max-width: 1220px;
+}
+.work-block {
+	font-size: 18px;
+	color: #37393f;
+}
+.title-block {
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 41px;
+}
+.title-block p::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/11.jpg") no-repeat;
+	width: 12px;
+	height: 13px;
+	margin-right: 6px;
+}
+.title-block p {
+	margin-bottom: 16px;
+}
+.title-work {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.21;
+}
+.test {
+	display: inline-block;
+	font-size: 0;
+	padding-top: 36px;
+}
+.appointment,
+.consultation {
+	vertical-align: top;
+	display: inline-block;
+	max-width: 386px;
+	margin-right: 31px;
+	padding: 58px 43px;
+	text-align: center;
+	background-color: #f4f4f4;
+}
+.appointment-image img,
+.consultation-image img,
+.servise-image img {
+	border-radius: 50%;
+	max-width: 72px;
+	width: 100%;
+	min-height: 72px;
+	margin-top: -94px;
+}
+.appointment-text,
+.consultation-text,
+.servise-text {
+	font-size: 18px;
+	line-height: 1.46;
+	margin-bottom: 37px;
+}
+.appointment-title,
+.consultation-title,
+.servise-title {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-size: 25px;
+	color: #37393f;
+	line-height: 1.27;
+	margin-bottom: 16px;
+}
+.work-link {
+	font-size: 18px;
+	font-weight: 600;
+	color: #6b77e5;
+}
+.work-link:hover {
+	text-decoration: underline;
+	color: #08137c;
+}
+.servise {
+	display: inline-block;
+	max-width: 386px;
+	padding: 58px 43px;
+	text-align: center;
+	background-color: #f4f4f4;
+}
+
+/*===================================*/
+
+.jewels {
+	margin: 0 auto;
+	font-size: 0;
+	max-width: 1211px;
+}
+.jewels-block {
+	display: inline-block;
+	vertical-align: top;
+}
+.jewels-text {
+	display: inline-block;
+	max-width: 488px;
+	vertical-align: top;
+	padding-top: 156px;
+}
+.jew-title {
+	font-family: "Cormorant Infant", serif;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 1.15;
+	margin-bottom: 13px;
+}
+.jewels-text::after {
+	display: block;
+	content: "";
+	height: 3px;
+	width: 65%;
+	background-color: #78473b;
+}
+.jew-fimage {
+	display: inline-block;
+	vertical-align: top;
+	max-width: 334px;
+	width: 100%;
+	margin-right: 55px;
+	padding-top: 46px;
+}
+.jew-fimage p,
+.jew-simage p {
+	font-family: "Cormorant Infant", serif;
+	font-weight: 700;
+	font-size: 24px;
+	margin-bottom: 4px;
+}
+.jew-fimage img {
+	box-shadow:
+		white -9px -10px 0 0,
+		black -9px -10px 0 1px;
+	margin-bottom: 25px;
+}
+.jew-simage {
+	display: inline-block;
+	vertical-align: top;
+	max-width: 334px;
+}
+.jew-simage p:first-of-type {
+	font-size: 46px;
+	margin-bottom: 40px;
+}
+.jew-simage img {
+	box-shadow:
+		white -9px -10px 0 0,
+		black -9px -10px 0 1px;
+	margin-bottom: 25px;
+}
+.fimage-link:hover {
+	color: #7d7d7d;
+	text-decoration: underline;
+}
+.simage-link:hover {
+	color: #7d7d7d;
+	text-decoration: underline;
+}
+.fimage-link img:hover {
+	box-shadow:
+		#7d7d7d -9px -10px 0 0,
+		black -9px -10px 0 1px;
+}
+.simage-link img:hover {
+	box-shadow:
+		#7d7d7d -9px -10px 0 0,
+		black -9px -10px 0 1px;
+}
