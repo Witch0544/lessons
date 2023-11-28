@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="css/style.css">
+	<title>lesson_16 homework</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__item item">
+				<div class="item__logo">
+					<a href="#" class="item__link">
+						<img src="img/header/logo.svg" alt="logo">
+					</a>
+				</div>
+				<div class="item__search search ">
+					<div class="search__item-search">
+						Search
+					</div>
+					<div class="search__item lang">
+						<div class="lang__menu">
+							<a href="#" class="lang__menu-link">English (united States)</a>
+							<ul class="lang__sub-menu">
+								<li>
+									<a href="#" class="lang__sub-menu-link">English (united States)</a>
+								</li>
+								<li>
+									<a href="#" class="lang__sub-menu-link">Ukrainian (Ukraine)</a>
+								</li>
+								<li>
+									<a href="#" class="lang__sub-menu-link">Polish (Poland)</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="search__buttons">
+						<a href="#" class="search__buttons-login">Login</a>
+						<a href="#" class="search__buttons-sing">Sing Up</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__contact contact-us">
+				<div class="contact-us__text">Contact Us</div>
+				<h1 class="contact-us__title">
+					Request A Call Back!
+				</h1>
+				<form action="#" class="contact-us__request request" method="GET">
+					<div class="request__line">
+						<input type="text" name="name" class="request__item" placeholder="Your Name" autocomplete="off">
+						<input type="email" name="mail" class="request__item" placeholder="Email Address" autocomplete="off">
+					</div>
+					<div class="request__line">
+						<input type="tel" name="tel" class="request__item" placeholder="Phone Number" autocomplete="off">
+						<input type="text" name="subject" class="request__item" placeholder="Subject" autocomplete="off">
+					</div>
+					<textarea name="message" placeholder="Message..." class="request__message"></textarea>
+					<div class="request__submit">
+						<button type="submit" class="request__button">Submit</button>
+					</div>
+				</form>
+			</div>
+			<div class="page__euforia euforia">
+				<div class="euforia__check">
+					<h2 class="euforia__title">Check Out</h2>
+					<form action="#" class="euforia__form check-out" method="GET">
+						<div class="check-out__details details">
+							<h3 class="details__title">Billing Details</h3>
+							<div class="details__block">
+								<div class="details__lines">
+									<div class="details__column">
+										<label for="name">First Name*</label>
+										<input id="name" type="text" name="name" class="details__name" required
+											placeholder="First Name" autocomplete="off">
+									</div>
+									<div class="details__column">
+										<label for="last">Last Name*</label>
+										<input id="last" type="text" name="lastname" class="details__name" required
+											placeholder="Last Name" autocomplete="off">
+									</div>
+								</div>
+								<div class="details__lines">
+									<div class="details__column">
+										<label for="region">Country / Region*</label>
+										<input id="region" type="text" name="region" class="details__name" required
+											placeholder="Country / Region" autocomplete="off">
+									</div>
+									<div class="details__column">
+										<label for="company">Company Name</label>
+										<input id="company" type="text" name="company" class="details__name"
+											placeholder="Company (optional)" autocomplete="off">
+									</div>
+								</div>
+								<div class="details__lines">
+									<div class="details__column">
+										<label for="str">Street Address*</label>
+										<input id="str" type="text" name="address" class="details__name" required
+											placeholder="House number and street name" autocomplete="off">
+									</div>
+									<div class="details__column">
+										<label for="unit">Apt, suite, unit</label>
+										<input id="unit" type="text" name="unit" class="details__name"
+											placeholder="apartment, suite, unit, etc. (optional)" autocomplete="off">
+									</div>
+								</div>
+
+								<div class="details__items">
+									<div class="details__column">
+										<label for="city">City*</label>
+										<input id="city" type="text" name="city" class="details__name" required
+											placeholder="Town / City" autocomplete="off">
+									</div>
+									<div class="details__column">
+										<label for="state">State*</label>
+										<input id="state" type="text" name="state" class="details__name" required
+											placeholder="State" autocomplete="off">
+									</div>
+									<div class="details__column">
+										<label for="post">Postal Code*</label>
+										<input id="post" type="text" name="post" class="details__name" required
+											placeholder="Postal Code" autocomplete="off">
+									</div>
+								</div>
+								<div class="details__phone">
+									<div class="details__column">
+										<label for="phone">Phone*</label>
+										<input id="phone" type="tel" name="tel" class="details__name" required placeholder="Phone"
+											autocomplete="off">
+									</div>
+								</div>
+								<a href="#" class="details__button">
+									Continue to delivery
+								</a>
+								<div class="details__checkout">
+									<input type="checkbox" class="details__check" id="check" name="check">
+									<label for="check" class="details__label">Save my information for a faster checkout</label>
+								</div>
+							</div>
+						</div>
+						<div class="check-out__shipping shipping">
+							<h3 class="shipping__title">Shipping Address</h3>
+							<div class="shipping__text">Select the address that matches your card or payment method.</div>
+
+							<div class="shipping__block block-shipping">
+								<fieldset class="block-shipping__group">
+									<div class="block-shipping__radio">
+										<input type="radio" name="select" class="block-shipping__input" checked id="billing"
+											value="address">
+										<label for="billing" class="block-shipping__lable">Same as Billing address</label>
+									</div>
+									<div class="block-shipping__radio">
+										<input type="radio" name="select" class="block-shipping__input" id="diff"
+											value="other address">
+										<label for="diff" class="block-shipping__lable">Use a different shipping address</label>
+									</div>
+								</fieldset>
+							</div>
+						</div>
+						<div class="check-out__method method">
+							<h3 class="method__title">Shipping Method</h3>
+							<div class="method__item">
+								<div class="method__items items">
+									<div class="items__content">
+										Arrives by Monday, June 7
+									</div>
+									<div class="items__content">
+										<div class="items__line">
+											<div class="items__charg">Delivery Charges</div>
+											<div class="items__price">$5.00</div>
+										</div>
+										<div class="items__text">Additional fess may apply</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="check-out__payway payway">
+							<h3 class="payway__title">Payment Method</h3>
+							<div class="payway__text">All transactions are secure and encrypted</div>
+							<div class="payway__payment payment">
+								<fieldset class="payment__items">
+									<div class="payment__way">
+										<div class="payment__radio">
+											<input type="radio" class="payment__card" name="card" checked id="card" value="card">
+											<label for="card">Credit Card
+												<span class="payment__text">We accept all major credit cards</span>
+											</label>
+										</div>
+										<div class="payment__item">
+											<ul class="payment__icons">
+												<li class="payment__difference">
+													<img src="img/main/gp.svg" alt="googlepay">
+												</li>
+												<li class="payment__difference">
+													<img src="img/main/vis.svg" alt="visa">
+												</li>
+												<li class="payment__difference">
+													<img src="img/main/pp.svg" alt="paypal">
+												</li>
+												<li class="payment__difference">
+													<img src="img/main/pps.svg" alt="paypass">
+												</li>
+											</ul>
+											<div class="payment__card-inputs input-card">
+												<div class="input-card__line">
+													<input type="tel" class="input-card__number" name="canum"
+														placeholder="Card number" autocomplete="off" required>
+													<input type="text" class="input-card__number" name="namr"
+														placeholder="Name of card" autocomplete="off" required>
+												</div>
+												<div class="input-card__line">
+													<input type="tel" class="input-card__number" name="date"
+														placeholder="Expiration date (MM/YY)" autocomplete="off" required>
+													<input type="password" class="input-card__code" name="code"
+														placeholder="Security Code" autocomplete="off" required>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="payment__way">
+										<div class="payment__radio">
+											<input type="radio" class="payment__card" name="card" id="cash" value="cash">
+											<label for="cash">Cash on delivery
+												<span class="payment__text">Pay with cash upon delivery.</span>
+											</label>
+										</div>
+									</div>
+									<div class="payment__way">
+										<div class="payment__radio">
+											<input type="radio" class="payment__card" name="card" id="pay" value="pay">
+											<label for="pay">Paypol</label>
+										</div>
+									</div>
+								</fieldset>
+							</div>
+						</div>
+						<a href="#" class="check-out__button">Pay Now</a>
+					</form>
+				</div>
+			</div>
+			<div class="page__euforia-item info">
+				<div class="info__check">
+					<h2 class="info__title">My Info</h2>
+					<form action="#" class="info__form add-address" method="GET">
+						<div class="add-address__details details">
+							<h3 class="details__title">Add Address</h3>
+							<div class="details__body">
+								<div class="details__lines">
+									<div class="details__column">
+										<label for="fn">First Name*</label>
+										<input id="fn" type="text" name="name" class="details__name" required
+											placeholder="First Name" autocomplete="off">
+									</div>
+									<div class="details__column">
+										<label for="ln">Last Name*</label>
+										<input id="ln" type="text" name="lastname" class="details__name" required
+											placeholder="Last Name" autocomplete="off">
+									</div>
+								</div>
+								<div class="details__lines">
+									<div class="details__column">
+										<label for="reg">Country / Region*</label>
+										<input id="reg" type="text" name="region" class="details__name" required
+											placeholder="Country / Region" autocomplete="off">
+									</div>
+									<div class="details__column">
+										<label for="comp">Company Name</label>
+										<input id="comp" type="text" name="company" class="details__name"
+											placeholder="Company (optional)" autocomplete="off">
+									</div>
+								</div>
+								<div class="details__lines">
+									<div class="details__column">
+										<label for="add">Street Address*</label>
+										<input id="add" type="text" name="address" class="details__name" required
+											placeholder="House number and street name" autocomplete="off">
+									</div>
+									<div class="details__column">
+										<label for="apt">Apt, suite, unit</label>
+										<input id="apt" type="text" name="unit" class="details__name"
+											placeholder="apartment, suite, unit, etc. (optional)" autocomplete="off">
+									</div>
+								</div>
+								<div class="details__lines">
+									<div class="details__column">
+										<label for="tow">City*</label>
+										<input id="tow" type="text" name="city" class="details__name" required
+											placeholder="Town / City" autocomplete="off">
+									</div>
+									<div class="details__column">
+										<label for="st">State*</label>
+										<input id="st" type="text" name="state" class="details__name" required placeholder="State"
+											autocomplete="off">
+									</div>
+								</div>
+								<div class="details__lines">
+									<div class="details__column">
+										<label for="cod">Postal Code*</label>
+										<input id="cod" type="text" name="post" class="details__name" required
+											placeholder="Postal Code" autocomplete="off">
+									</div>
+									<div class="details__column">
+										<label for="ph">Phone*</label>
+										<input id="ph" type="tel" name="tel" class="details__name" required placeholder="Phone"
+											autocomplete="off">
+									</div>
+								</div>
+
+								<div class="details__text">
+									<label for="inst">Delivery Instruction</label>
+									<textarea name="message" class="details__massage" placeholder="Delivery Instruction"
+										id="inst"></textarea>
+								</div>
+							</div>
+							<div class="details__checkout">
+								<input type="checkbox" class="details__check" id="ship" name="check">
+								<label for="ship" class="details__label">Set as default shipping address</label>
+							</div>
+							<div class="details__checkout">
+								<input type="checkbox" class="details__check" id="bil" name="check">
+								<label for="bil" class="details__label">Set as default billing address</label>
+							</div>
+
+							<button type="submit" class="details__buttons">
+								Save
+							</button>
+							<button type="reset" class="details__buttons-white">
+								Cancel
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__text">End of Homework</div>
+		</footer>
+	</div>
+</body>
+
+</html>
