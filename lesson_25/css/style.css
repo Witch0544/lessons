@@ -1,0 +1,33 @@
+@import url("reset.css");
+
+
+body {
+	font-size: 20px;
+	padding: 20px 15px;	
+}
+
+.page {
+	padding-bottom: 50px;
+}
+ul {
+	margin-bottom: 50px;
+}
+li:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.text {
+	margin-bottom: 50px;
+	line-height: 1.2;
+}
+.button {
+	display: block;
+	padding: 20px 30px;
+	background-color: blue;
+	border-radius: 8px;
+	color: white;
+	margin-bottom: 50px;
+}
+.link {
+	text-decoration: underline;
+}
