@@ -1,0 +1,117 @@
+//Titles
+.title {
+	color: $mainColor;
+	@include adaptiveValue("font-size", 48, 24);
+	letter-spacing: toRem(2.4);
+	&--little {
+		@include adaptiveValue("font-size", 23, 18);
+		line-height: 195.652174%; /* 45/23 */
+		letter-spacing: toRem(1.5);
+	}
+}
+.button {
+	color: #FFFFFF;
+	background-color: $mainColor;
+	border-radius: toRem(10);
+	padding: toRem(15) toRem(37);
+	transition: all 0.3s;
+	text-align: center;
+	@media (any-hover: hover) {
+		&:hover {
+			background-color: #FFFFFF;
+			color: $mainColor;
+			box-shadow: 0 toRem(2) toRem(2) toRem(2) $borderButtonColor;
+		}
+		&:focus {
+			background-color: #FFFFFF;
+			color: $mainColor;
+		}
+		&:disabled {
+			background-color: #eaeaea;
+			cursor: default;
+			color: $greyColor;
+		}
+	}
+	&--border {
+		background-color: #FFFFFF;
+		color: $mainColor;
+		border: toRem(1) solid $borderButtonColor;
+		padding: toRem(15) toRem(100);
+		transition: all 0.3s;
+		@media (any-hover: hover) {
+			&:hover {
+				color: #FFFFFF;
+				background-color: $mainColor;
+			}
+			&:focus {
+				color: #FFFFFF;
+				background-color: $mainColor;
+			}
+			&:disabled {
+				background-color: #eaeaea;
+				cursor: default;
+				color: $greyColor;
+			}
+		}
+	}
+	&--black {
+		color: #FFFFFF;
+		background-color: $mainColor;	
+		padding: toRem(15) toRem(100);
+	}
+	&--small {
+		color: $mainColor;
+		background-color: #FFFFFF;
+		border: toRem(1) solid #D4D4D8;
+		@include adaptiveValue ("padding-left", 25, 10);
+		@include adaptiveValue ("padding-right", 25, 10);
+		padding-top: toRem(13);
+		padding-bottom: toRem(13);
+		@media (any-hover: hover) {
+			&:hover {
+				color: #FFFFFF;
+				background-color: $mainColor;
+			}
+			&:focus {
+				color: #FFFFFF;
+				background-color: $mainColor;
+			}
+			&:disabled {
+				background-color: #eaeaea;
+				cursor: default;
+				color: $greyColor;
+			}
+		}
+	}
+	&--active {	
+		color: #FFFFFF;
+		background-color: $mainColor;		
+		@include adaptiveValue ("padding-left", 25, 10);
+		@include adaptiveValue ("padding-right", 25, 10);
+		padding-top: toRem(13);
+		padding-bottom: toRem(13);
+	}
+			
+	
+	&--thing {
+		padding: toRem(3) toRem(37);
+		line-height: 150%;
+		@media (any-hover: hover) {
+			&:hover {
+				background-color: #FFFFFF;
+				color: $mainColor;				
+				box-shadow: 0 toRem(2) toRem(2) toRem(2) $borderButtonColor;
+			}
+			&:focus {
+				background-color: #FFFFFF;
+				color: $mainColor;
+			}
+			&:disabled {
+				background-color: #eaeaea;
+				cursor: default;
+				color: $greyColor;
+			}
+		}
+	}
+}
+
